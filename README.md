@@ -12,7 +12,7 @@ NDK
 android-ndk-r21e-linux-x86_64.zip
 
 libusb
-libusb-1.0.26.tar.bz2
+libusb-1.0.30.tar.bz2
 ```
 
 
@@ -53,8 +53,8 @@ https://libusb.info/
 或者直接下载解压
 
 ```
-wget https://github.com/libusb/libusb/releases/download/v1.0.26/libusb-1.0.26.tar.bz2
-tar -jxvf libusb-1.0.26.tar.bz2
+wget https://github.com/libusb/libusb/releases/download/v1.0.30/libusb-1.0.30.tar.bz2
+tar -jxvf libusb-1.0.30.tar.bz2
 ```
 
 
@@ -72,7 +72,7 @@ https://github.com/libusb/libusb/blob/master/android/README
 命令
 
 ```
-cd /home/louis/AndroidDev/libusb-1.0.26/android/jni
+cd /home/louis/AndroidDev/libusb-1.0.30/android/jni
 export NDK=/home/louis/AndroidDev/android-ndk-r21e
 $NDK/ndk-build
 ```
@@ -82,10 +82,10 @@ $NDK/ndk-build
 默认编译后在 android/libs 目录下生成不同平台的 libusb1.0.so 等文件
 
 ```
-/home/louis/AndroidDev/libusb-1.0.26/android/libs/armeabi-v7a
-/home/louis/AndroidDev/libusb-1.0.26/android/libs/arm64-v8a
-/home/louis/AndroidDev/libusb-1.0.26/android/libs/x86
-/home/louis/AndroidDev/libusb-1.0.26/android/libs/x86_64
+/home/louis/AndroidDev/libusb-1.0.30/android/libs/armeabi-v7a
+/home/louis/AndroidDev/libusb-1.0.30/android/libs/arm64-v8a
+/home/louis/AndroidDev/libusb-1.0.30/android/libs/x86
+/home/louis/AndroidDev/libusb-1.0.30/android/libs/x86_64
 ```
 
 
@@ -93,8 +93,8 @@ $NDK/ndk-build
 说明
 
 ```
-//1.0.26 源码
-libusb-1.0.26.tar.bz2
+//1.0.30 源码
+libusb-1.0.30.tar.bz2
 //编译后生成的文件
 libs.7z
 //编译后生成的文件里的 so 库
